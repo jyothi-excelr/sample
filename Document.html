@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://127.0.0.1:5500/Excelr/FSD%20fundamentals/grid1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .items ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .items ul li img {
+            cursor: pointer;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: 308px 220px 241px 47px;
+            row-gap: 100px;
+            margin-top:25px;
+        }
+
+        .main p {
+            font-size: 24px;
+            justify-self: flex-end;
+            
+
+        }
+
+        .main small {
+            align-self: center;
+            justify-self: flex-end;
+            font-size:14px;
+        }
+
+        .main img {
+            justify-self: flex-end;
+            align-self: center;
+        }
+
+        .item {
+            background-color: rgb(248, 248, 248);
+            width: 310px;
+            height: 150px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            row-gap: 30px;
+            column-gap: 35px;
+            justify-content: center;
+            margin-top: 25px;
+
+        }
+
+        .grid .item {
+            display: grid;
+            grid-template-columns: 150px 150px;
+            grid-template-rows: 75px 75px;
+
+        }
+
+        .grid .item .one {
+            grid-column: 1/3;
+            justify-self: center;
+            align-self: center;
+        }
+
+        .grid .item .two {
+            justify-self: center;
+            align-self: center;
+            cursor: pointer;
+        }
+        .grid .item .three {
+            justify-self: flex-end;
+            align-self: center;
+        }
+        .grid .item .two p {
+            border-radius: 4px;
+            padding:10px 5px;
+            
+            background-color:rgb(9, 109, 9);
+            color:white;
+
+        }
+        .grid .item .three p{
+            background-color: rgb(8, 121, 156);
+            color:white;
+            justify-self: flex-start;
+        }
+
+        .grid .item .one .same {
+            display: grid;
+            grid-template-rows: 37.5px 37.5px;
+        }
+
+        .grid .item .one .same p{
+            justify-self: center;
+            align-self: center;
+        }
+        .grid .item .one .same h3{
+            justify-self: center;
+        }
+        .grid .item .two a{
+            text-decoration: none;
+        }
+        .main .smal{
+            cursor:pointer;
+            justify-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./Document_files/ue.jpg" alt="" width="300px">
+            </div>
+            <div class="items">
+                <ul>
+                    <li>Products <img src="./Document_files/down-arrow.png" alt="" width="13"></li>
+                    <li>Pricing <img src="./Document_files/down-arrow.png" alt="" width="13"></li>
+                    <li>Resources <img src="./Document_files/down-arrow.png" alt="" width="13"></li>
+                    <li>About us <img src="./Document_files/down-arrow.png" alt="" width="13"></li>
+                    <li><img src="./Document_files/Lang.png" alt=""></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <img src="./Document_files/UE_logo_icon_white.png" alt="" width="60" height="60">
+            <p>Download UltraEdit</p>
+            <small><pre>v2023.2(released 12/15/2023) |</pre></small>
+            <small class="smal">Hotfix</small>
+        </div>
+        <div class="grid">
+
+            <div class="item">
+                <div class="one ">
+                    <h3>English</h3>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>Deutsch </h3>
+                        <p>German</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>Italiano</h3>
+                        <p>Italian</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>Español</h3>
+                        <p>Spanish</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>français</h3>
+                        <p>French</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>Português brasileiro</h3>
+                        <p>Brazilian Portuguese</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>日本</h3>
+                        <p>Japanese</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>한국어</h3>
+                        <p>Korean</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>中国</h3>
+                        <p>Chinese</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="one">
+                    <div class="same">
+                        <h3>中國</h3>
+                        <p>Traditional Chinese</p>
+                    </div>
+                </div>
+                <div class="two three">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 34-bit</p></a>
+                </div>
+                <div class="two">
+                    <a href="http://127.0.0.1:5500/Excelr/FSD%20fundamentals/ue_english.exe"><p>Download 64-bit</p></a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
